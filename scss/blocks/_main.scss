@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 0 32px;
+
+    &__form {
+        position: sticky;
+        top: 24px;
+        flex: 0 0 332px;
+        background-color: #FFFEFB;
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+        border-radius: 4px;
+    }
+}

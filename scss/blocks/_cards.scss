@@ -1,0 +1,90 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1028px;
+    gap: 16px;
+}
+
+.card {
+    width: 332px;
+    min-height: 423px;
+    background: #FFFEFB;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+
+    &:hover .card__delete {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    &__img {
+        display: block;
+        max-width: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__info {
+        padding: 16px 16px 0;
+
+        &-title {
+            margin-bottom: 16px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 25px;
+            color: $main-color;
+        }
+
+        &-descr {
+            margin-bottom: 32px;
+            font-size: 16px;
+            line-height: 20px;
+            color: $main-color;
+        }
+
+        &-price {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+            color: $main-color;
+        }
+    }
+
+    &__delete {
+        position: absolute;
+        height: 32px;
+        width: 32px;
+        top: -8px;
+        right: -8px;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: $red;
+        z-index: 10;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: .5s;
+        border: none;
+        cursor: pointer;
+
+        svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &:hover {
+            background: darken($red, 20%);
+        }
+    }
+}

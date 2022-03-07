@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1 class="header__text">Добавление товара</h1>
+            <div class="header__select">
+                <select>
+                    <option>По умолчанию</option>
+                    <option>По возрастанию</option>
+                    <option>По убыванию</option>
+                </select>
+            </div>
+        </header>
+
+        <main class="main">
+            <aside class="main__form">
+                <form action="#" class="form">
+                    <div class="form__field">
+                        <label class="required" for="productname">Наименование товара</label>
+                        <input type="text" id="productname" placeholder="Введите наименование товара">
+                    </div>
+                    <div class="form__field">
+                        <label for="descr">Описание товара</label>
+                        <textarea name="text" id="descr" placeholder="Введите описание товара"></textarea>
+                    </div>
+                    <div class="form__field">
+                        <label class="required" for="link">Ссылка на изображение товара</label>
+                        <input type="text" id="link" placeholder="Введите ссылку">
+                    </div>
+                    <div class="form__field">
+                        <label class="required" for="price">Цена товара</label>
+                        <input type="number" id="price" placeholder="Введите цену">
+                    </div>
+                    <button class="form__button">Добавить товар</button>
+                </form>
+            </aside>
+
+            <div class="cards">
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/image.png" alt="Card">
+                    <div class="card__info">
+                        <h2 class="card__info-title">Наименование товара</h2>
+                        <div class="card__info-descr">Довольно-таки интересное описание товара в несколько строк.
+                            Довольно-таки
+                            интересное описание товара в несколько строк</div>
+                        <div class="card__info-price">10 000 руб.</div>
+                    </div>
+                    <button class="card__delete button-reset" type="button">
+                        <img src="img/delete.svg" alt="Delete">
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

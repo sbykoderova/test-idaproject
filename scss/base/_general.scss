@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgba(255, 254, 251, 0.8);
+
+    &._lock {
+        overflow: hidden;
+    }
+}
+
+.container {
+    max-width: 1406px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.button-reset {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
