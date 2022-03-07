@@ -1,1 +1,4 @@
-# Idaproject_Test
+# Тестовое задание для idaproject
+* HTML
+* SCSS
+* JavaScript
